@@ -1,0 +1,267 @@
+/**
+ * 	@author Dominik Guzei
+ *	Project: StyleKit - Qualifikationsprojekt 1
+ *	Fachhochschule Salzburg
+ *
+ *	This file combines all styles for syntax highlighting
+ *	for the used parsers in this implementation of GWT
+ *	code mirror.
+ */
+
+html {
+  cursor: text;
+}
+
+.editbox {
+  margin: .4em;
+  padding: 0 0 0 35px;
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+  min-height:20px;
+}
+
+pre.code, .editbox {
+  color: #666666;
+}
+
+/* ----- CSS STYLES ----- */
+
+span.css-at {
+  color: #770088;
+}
+
+span.css-unit {
+  color: #4D94E0;
+}
+
+span.css-value {
+  color: #4D94E0;
+}
+
+span.css-identifier {
+  color: #245B24;
+}
+
+span.css-selector { 
+  color: black;
+  font-weight: bold;	
+}
+
+span.css-important {
+  color: red;
+}
+
+span.css-colorcode {
+  color: #4D94E0;
+}
+
+span.css-comment {
+  color: #AA7700;
+}
+
+span.css-string {
+  color: #AA2222;
+}
+
+/* ----- JS STYLES ----- */
+
+span.js-punctuation {
+  color: #666666;
+}
+
+span.js-operator {
+  color: #666666;
+}
+
+span.js-keyword {
+  color: #CD071B;
+}
+
+span.js-atom {
+  color: #228811;
+}
+
+span.js-variable {
+  color: black;
+}
+
+span.js-variabledef {
+  color: #0000FF;
+}
+
+span.js-localvariable {
+  color: #004499;
+}
+
+span.js-property {
+  color: black;
+}
+
+span.js-comment {
+  color: #AA7700;
+}
+
+span.js-string {
+  color: #AA2222;
+}
+
+/* ----- PHP CSS STYLES ----- */
+
+span.php-punctuation {
+  color: blue;
+}
+
+span.php-keyword {
+  color: #770088;
+  font-weight: bold;
+}
+
+span.php-operator {
+  color: blue;
+}
+
+span.php-compile-time-constant {
+  color: #776088;
+}
+
+span.php-predefined-constant {
+  color: darkgreen;
+}
+
+span.php-reserved-language-construct {
+  color: green;
+}
+
+/* PHP built-in functions: glob(), chr() etc.; output of get_defined_functions()["internal"] */
+span.php-predefined-function {
+  color: green;
+}
+
+/* PHP predefined classes: PDO, Exception etc.; output of get_declared_classes() and different from http://php.net/manual/en/reserved.classes.php */
+span.php-predefined-class {
+  color: green;
+}
+
+span.php-atom {
+  color: #228811;
+}
+
+/* class, interface, namespace or function names, but not $variables */
+span.php-t_string {
+  color: black;
+}
+
+span.php-variable {
+  color: #855F07;
+}
+
+span.js-localvariable {
+  color: #004499;
+}
+
+span.php-comment {
+  color: #AA7700;
+  font-stretch: condensed;
+}
+
+span.php-string-single-quoted {
+  color: #AA2222;
+}
+span.php-string-double-quoted {
+  color: #AA2222;
+}
+
+span.syntax-error {
+  border-bottom: 1px dashed red;
+}
+
+span.deprecated {
+  font-size: smaller;
+}
+
+/* ----- SQL CSS STYLES ----- */
+
+span.sql-keyword {
+  color: #CD071B;
+}
+
+span.sql-var {
+  color: #855F07;
+}
+
+span.sql-comment {
+  color: #AA7700;
+}
+
+span.sql-literal {
+  color: green;
+}
+
+span.sql-operator {
+  color: black;
+}
+
+span.sql-word {
+  color: black;
+}
+
+span.sql-function {
+  color: darkorange;
+}
+
+span.sql-type {
+  color: purple;
+}
+
+span.sql-separator {
+  color: #666666;
+}
+
+span.sql-number {
+  color: darkcyan;
+}
+
+/* ----- XML CSS STYLES ----- */
+
+span.xml-tagname {
+  color: #A0B;
+}
+
+span.xml-attribute {
+  color: #281;
+}
+
+span.xml-punctuation {
+  color: black;
+}
+
+span.xml-attname {
+  color: #00F;
+}
+
+span.xml-comment {
+  color: #A70;
+}
+
+span.xml-cdata {
+  color: #48A;
+}
+
+span.xml-processing {
+  color: #999;
+}
+
+span.xml-entity {
+  color: #A22;
+}
+
+span.xml-error {
+ color: #F00 !important;
+}
+
+span.xml-text {
+  color: black;
+}
+
+

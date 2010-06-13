@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+	Autor: Dominik Guzei
+	Project: StyleKit - Qualifikationsprojekt 1
+	Fachhochschule Salzburg
+	
+	CodeMirror.gwt.xml
+	This file describes the resources that are needed
+	by the CodeMirror module
+ -->
+ 
+<module rename-to='codemirror'>
+
+  <inherits name='com.google.gwt.user.User'/>
+  <script src='js/codemirror-min.js' />
+  <stylesheet src='css/editor-min.css' />
+  
+  <!-- <entry-point class='at.wizzart.gwt.widgets.client.CodeMirrorEntryPoint'/>-->
+</module>

@@ -1,0 +1,54 @@
+html {
+  cursor: text;
+}
+
+.editbox {
+  margin: .4em;
+  padding: 0 0 0 35px;
+  font-family: monospace;
+  font-size: 10pt;
+  color: black;
+}
+
+pre.code, .editbox {
+  color: #666666;
+}
+
+/* ----- CSS STYLES ----- */
+
+span.css-at {
+  color: #770088;
+}
+
+span.css-unit {
+  color: #4D94E0;
+}
+
+span.css-value {
+  color: #4D94E0;
+}
+
+span.css-identifier {
+  color: red;
+}
+
+span.css-selector { 
+  color: black;
+  font-weight: bold;	
+}
+
+span.css-important {
+  color: red;
+}
+
+span.css-colorcode {
+  color: #4D94E0;
+}
+
+span.css-comment {
+  color: #AA7700;
+}
+
+span.css-string {
+  color: #AA2222;
+}
